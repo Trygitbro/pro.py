@@ -1,0 +1,20 @@
+# hi welcome to pro script
+# the fouder -- b.vikramvarma
+# this is amazing 👌 
+  Import  speech -recognizer
+  Import date time
+  Import subprocess
+  Import pywhatkit
+  Import pytts*3
+  Import web browser 
+  
+  Engine =pytts*3.init()
+  Voices =Engine.get property (voices)
+  Engine_set property (voice,voices[1].id) 
+  recognizer = sr.recognizer
+  
+  def.emd():
+            With sr.recognizer
+  Print(clearing background noises..please wait) 
+  
+  recognizer adjust_for_ambient_noise(source,duration=0.5)
